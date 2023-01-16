@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Red Rose Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Dela Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container flex flex-col">
+      <section aria-label="navbar">
+        <nav class="navbar flex flex-row justify-around p-10">
+          <div>
+            <img src="./assets/white-logo.png" alt="logo" class="logo" />
+          </div>
+          <div>
+            <ul class="list flex flex-row ">
+              <li class="list-item p-10">Our Menu</li>
+              <li class="list-item p-10">Maps</li>
+              <li class="list-item p-10">About</li>
+              <li class="list-item p-10">Contact</li>
+            </ul>
+          </div>
+          <div class="">
+            <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-700 ">
+              Order
+            </button>
+          </div>
+        </nav>
+      </section>
+      <!-- Hero Section -->
+      <section aria-label="hero">
+        <div class="hero text-center">
+          <h1 class="hero-heading p-10 text-9xl font-bold flex-wrap">
+            A Restaurant That Only Serves Delicious Food
+          </h1>
+          <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-700 ">
+            Read Our Menu
+          </button>
+          <div class="bottom">
+            <div class="flex justify-end p-10">
+              <img src="./assets/scrool.png" alt="bottom-logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
